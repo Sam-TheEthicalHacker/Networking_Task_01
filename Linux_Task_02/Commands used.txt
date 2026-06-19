@@ -1,0 +1,73 @@
+Linux Task 02 - Commands Used
+
+Part A - Understanding Users
+
+whoami
+
+id
+
+cat /etc/passwd
+
+Part B - Create Users and Groups
+
+sudo groupadd interns
+
+sudo groupadd cyberteam
+
+sudo useradd -m student1
+
+sudo useradd -m student2
+
+sudo useradd -m student3
+
+sudo usermod -aG interns student1
+
+sudo usermod -aG interns student2
+
+sudo usermod -aG interns,cyberteam student3
+
+id student1
+
+id student2
+
+id student3
+
+Part C - File Ownership
+
+mkdir CyberSecurity_Project
+
+cd CyberSecurity_Project
+
+touch report.txt
+
+touch notes.txt
+
+touch credentials.txt
+
+ls -l
+
+sudo chown student1 report.txt
+
+ls -l
+
+Part D - File Permissions
+
+touch security_policy.txt
+
+ls -l security_policy.txt
+
+chmod 444 security_policy.txt
+
+ls -l security_policy.txt
+
+chmod 664 security_policy.txt
+
+ls -l security_policy.txt
+
+chmod 700 security_policy.txt
+
+ls -l security_policy.txt
+
+chmod 777 security_policy.txt
+
+ls -l security_policy.txt

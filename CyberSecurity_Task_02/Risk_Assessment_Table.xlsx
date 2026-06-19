@@ -1,0 +1,6 @@
+Asset	Threat	Impact	Risk Level
+Student Database	Unauthorized Access	High	High
+Faculty Records	Insider Misuse	Medium	Medium
+College Website	DDoS Attack	High	High
+Learning Management System	Malware	High	High
+Campus Network	Phishing	Medium	Medium

@@ -1,0 +1,37 @@
+System Information Report
+
+User: lenovoThinkpad
+
+Hostname: kali
+
+Date and Time:
+(Current system date and time)
+
+Current Directory:
+/home/hplaptop
+
+Available Memory:
+
+Total RAM: 16.0 GiB
+
+Available RAM: 15.5 GiB
+
+Disk Usage:
+
+Filesystem: /user/task
+
+Size: 65G
+
+Used: 15G
+
+Available: 47G
+
+Usage Percentage: 25%
+
+Kernel Information:
+
+Linux kali 6.18.12-kali-amd64 x86_64 GNU/Linux
+
+System Uptime:
+
+1 hour 8 minutes

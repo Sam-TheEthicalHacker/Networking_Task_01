@@ -1,0 +1,22 @@
+Device Security Assessment
+Objective
+
+This assessment evaluates the security status of my personal laptop by checking the operating system, software updates, antivirus protection, and firewall settings.
+
+System Information
+Component	Status
+Operating System	Windows 11
+OS Version	(Write your Windows version here, e.g., 24H2)
+System Updated	Yes
+Antivirus Installed	Microsoft Defender Antivirus
+Firewall Enabled	Yes
+Observations
+The operating system is updated with the latest security patches.
+Microsoft Defender Antivirus is installed and actively protecting the device.
+Windows Firewall is enabled to monitor incoming and outgoing network traffic.
+Regular system updates help reduce security vulnerabilities.
+Screenshots Included
+Windows Version
+Windows Update
+Windows Security
+Firewall Status

@@ -1,0 +1,39 @@
+Understanding the CIA Triad
+Confidentiality
+Definition
+
+Confidentiality is the practice of ensuring that sensitive information is accessible only to authorized individuals. It protects data from unauthorized disclosure.
+
+Importance
+Safeguards personal and organizational information.
+Prevents identity theft and data leakage.
+Builds trust between organizations and users.
+Example
+
+A hospital stores patient records in a secure database where only doctors and authorized staff can access the information.
+
+Integrity
+Definition
+
+Integrity means keeping information accurate, complete, and protected from unauthorized modifications.
+
+Importance
+Ensures reliable information.
+Prevents accidental or malicious data changes.
+Supports informed decision-making.
+Example
+
+An online examination system allows only authorized administrators to edit students' grades.
+
+Availability
+Definition
+
+Availability ensures that systems, applications, and information remain accessible whenever authorized users require them.
+
+Importance
+Supports continuous operations.
+Reduces service interruptions.
+Improves user satisfaction.
+Example
+
+A university website uses backup servers to remain accessible during periods of high traffic or server failures.

@@ -1,0 +1,38 @@
+pwd
+/home/kali/CyberSecurity_Lab
+
+ls
+CyberSecurity  EthicalHacking  Linux  Networking  Reports
+
+ls -la
+total ...
+drwxr-xr-x ...
+
+cd Linux
+
+clear
+
+history
+1 mkdir Networking Linux CyberSecurity EthicalHacking Reports
+2 touch Networking/notes.txt
+3 touch Linux/commands.txt
+4 touch Reports/report.txt
+5 cp Networking/notes.txt Linux/
+6 mv Reports/report.txt EthicalHacking/
+7 mv Linux/commands.txt Linux/linux_commands.txt
+8 rm Linux/notes.txt
+
+whoami
+kali
+
+hostname
+kali
+
+uname -a
+Linux kali ...
+
+date
+12/06/2026 18:03
+
+pwd
+/home/kali/CyberSecurity_Lab

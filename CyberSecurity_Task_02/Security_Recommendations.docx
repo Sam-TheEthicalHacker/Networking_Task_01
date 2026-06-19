@@ -1,0 +1,40 @@
+Security Recommendations
+1. Enable Multi-Factor Authentication
+
+Provides an additional verification step beyond passwords.
+
+2. Enforce Strong Password Policies
+
+Reduces the likelihood of password-based attacks.
+
+3. Perform Regular Software Updates
+
+Removes known vulnerabilities before attackers exploit them.
+
+4. Conduct Cybersecurity Awareness Programs
+
+Educates users about common cyber threats.
+
+5. Schedule Frequent Data Backups
+
+Ensures quick recovery after data loss.
+
+6. Deploy Antivirus Solutions
+
+Detects and blocks malicious software.
+
+7. Secure the Network with Firewalls
+
+Prevents unauthorized network access.
+
+8. Encrypt Confidential Data
+
+Protects information even if it is stolen.
+
+9. Apply Role-Based Access Control
+
+Limits access according to user responsibilities.
+
+10. Monitor Systems Continuously
+
+Helps detect suspicious activities at an early stage.

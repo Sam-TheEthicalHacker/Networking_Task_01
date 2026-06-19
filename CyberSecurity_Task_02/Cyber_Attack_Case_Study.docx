@@ -1,0 +1,36 @@
+Case Study: Equifax Data Breach
+Introduction
+
+The Equifax data breach occurred in 2017 and exposed the personal information of millions of individuals due to an unpatched software vulnerability.
+
+What Happened?
+
+Attackers exploited a known vulnerability in Equifax's web application, allowing them to steal sensitive customer information over several months.
+
+CIA Triad Affected
+Confidentiality
+
+Personal information such as names, addresses, and Social Security numbers was exposed.
+
+Integrity
+
+Although data was mainly stolen, there was also concern about possible data manipulation.
+
+Availability
+
+Availability was not significantly affected since services remained operational.
+
+Impact
+Personal information of millions was compromised.
+Loss of customer trust.
+Financial penalties and legal actions.
+Increased risk of identity theft.
+Prevention
+Apply security patches promptly.
+Conduct regular vulnerability assessments.
+Encrypt sensitive information.
+Monitor networks for suspicious activity.
+Implement strong access controls.
+Conclusion
+
+The Equifax breach demonstrates the importance of timely software updates and proactive security management.

@@ -1,0 +1,89 @@
+Part A - Process Monitoring
+
+ps
+
+PID TTY          TIME CMD
+2369 pts/0    00:00:06 zsh
+37815 pts/0   00:00:00 ps
+
+ps aux
+
+Displayed all running processes, including system and user processes.
+
+top
+
+Displayed real-time CPU usage, memory usage, tasks, uptime, and running processes.
+
+htop
+
+Displayed interactive process monitoring information with CPU, memory, and process details.
+
+Part B - Process Management
+
+sleep 300
+
+ps aux | grep sleep
+
+sleep process identified successfully.
+
+kill PID
+
+Process terminated successfully.
+
+kill -9 PID
+
+Forcefully terminated process.
+
+Part C - System Monitoring
+
+free -h
+
+Total RAM: 3.8 GiB
+
+Used RAM: 966 MiB
+
+Available RAM: 2.9 GiB
+
+Swap: 3.6 GiB
+
+df -h
+
+Filesystem Size Used Available Use% Mounted On
+
+/dev/sda1 65G 15G 47G 25% /
+
+uptime
+
+20:00:12 up 1:08, 1 user, load average: 0.10, 0.15, 0.22
+
+uname -a
+
+Linux kali 6.18.12-kali-amd64 x86_64 GNU/Linux
+
+Part D - Service Monitoring
+
+systemctl status ssh
+
+Service Status: Inactive (Dead)
+
+systemctl status NetworkManager
+
+Service Status: Active (Running)
+
+Part E - Shell Script
+
+Script Name: system_report.sh
+
+Purpose:
+
+Display current user
+
+Display hostname
+
+Display date and time
+
+Display current directory
+
+Display available memory
+
+Display disk usage

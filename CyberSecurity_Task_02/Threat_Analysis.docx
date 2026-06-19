@@ -1,0 +1,65 @@
+Common Cybersecurity Threats
+Insider Threat
+Description
+
+A threat caused by employees, contractors, or trusted users who misuse their authorized access.
+
+Possible Impact
+Data theft
+Financial losses
+Reputation damage
+Prevention
+Least privilege access
+Employee awareness training
+Activity monitoring
+Malware
+Description
+
+Malware is malicious software designed to damage, steal, or disrupt computer systems.
+
+Possible Impact
+File corruption
+System downtime
+Loss of sensitive information
+Prevention
+Install antivirus software
+Keep systems updated
+Avoid downloading unknown files
+Phishing
+Description
+
+Phishing is a cyberattack that tricks users into revealing confidential information through fake emails or websites.
+
+Possible Impact
+Credential theft
+Financial fraud
+Account compromise
+Prevention
+Verify email authenticity
+Avoid clicking suspicious links
+Conduct phishing awareness training
+Weak Passwords
+Description
+
+Using simple or repeated passwords makes accounts easier for attackers to compromise.
+
+Possible Impact
+Unauthorized access
+Data exposure
+Prevention
+Use complex passwords
+Enable Multi-Factor Authentication
+Change passwords regularly
+Unpatched Systems
+Description
+
+Software that has not been updated may contain known vulnerabilities that attackers can exploit.
+
+Possible Impact
+Malware infections
+Unauthorized access
+System compromise
+Prevention
+Regular patch management
+Automatic updates
+Vulnerability scanning
