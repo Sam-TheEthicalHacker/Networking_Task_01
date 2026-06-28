@@ -1,0 +1,121 @@
+============================================================
+  ETHICAL HACKING TASK 02 – NMAP LOCALHOST SCANNING
+  Command Outputs Log
+  Student : Sanjay
+  Date    : June 28, 2026
+  Target  : localhost (127.0.0.1)
+  System  : Kali Linux
+============================================================
+
+
+------------------------------------------------------------
+COMMAND 1: nmap --version
+------------------------------------------------------------
+$ nmap --version
+
+Nmap version 7.94SVN ( https://nmap.org )
+Platform: x86_64-pc-linux-gnu
+Compiled with: liblua-5.4.6 openssl-3.2.2 libssh2-1.11.0 libz-1.3.1
+               libpcre2-10.42 libpcap-1.10.4 nmap-libdnet-1.12 ipv6
+Compiled without:
+Available nsock engines: epoll poll select
+
+OBSERVATION:
+  - Nmap 7.94SVN is installed and functional on the Kali Linux system.
+  - The tool was compiled with IPv6 support and multiple security libraries.
+  - nsock engines available: epoll, poll, select.
+
+
+------------------------------------------------------------
+COMMAND 2: nmap localhost
+------------------------------------------------------------
+$ nmap localhost
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-06-28 07:04 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00025s latency).
+Other addresses for localhost (not scanned): ::1
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.15 seconds
+
+OBSERVATION:
+  - Host is confirmed UP with very low latency (0.00025s — loopback expected).
+  - All 1000 TCP ports scanned; all are in closed/ignored states.
+  - No open ports detected.
+  - IPv6 loopback (::1) was noted but not scanned.
+  - Scan completed in 0.15 seconds.
+
+
+------------------------------------------------------------
+COMMAND 3: nmap -sV localhost
+------------------------------------------------------------
+$ nmap -sV localhost
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-06-28 07:05 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00011s latency).
+Other addresses for localhost (not scanned): ::1
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Service detection performed. Please report any incorrect results at
+https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.55 seconds
+
+OBSERVATION:
+  - Service detection (-sV) was executed successfully.
+  - No services were identified because no ports were open.
+  - Service fingerprinting requires at least one open port to probe.
+  - Scan completed in 0.55 seconds (slightly longer due to -sV probing).
+
+
+------------------------------------------------------------
+COMMAND 4: sudo nmap -O localhost
+------------------------------------------------------------
+$ sudo nmap -O localhost
+[sudo] password for kali:
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-06-28 07:05 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000045s latency).
+Other addresses for localhost (not scanned): ::1
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at
+https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.67 seconds
+
+OBSERVATION:
+  - OS detection required sudo (root) privileges.
+  - Nmap was unable to identify the OS specifically due to the absence of open ports.
+  - "Too many fingerprints match" is the expected response when no open ports
+    are available for the OS fingerprinting engine to narrow down the match.
+  - Network Distance: 0 hops — confirms the target is the local machine.
+  - Scan completed in 1.67 seconds.
+
+
+------------------------------------------------------------
+SUMMARY OF RESULTS
+------------------------------------------------------------
+
+  Nmap Version     : 7.94SVN
+  Target           : localhost (127.0.0.1)
+  Host Status      : UP (all scans)
+  Open Ports       : NONE (all 1000 TCP ports closed)
+  Services Found   : NONE (no open ports to probe)
+  OS Detected      : INCONCLUSIVE (insufficient open ports for fingerprinting)
+  Network Distance : 0 hops (local loopback)
+  Avg Latency      : < 0.001 seconds (typical for loopback)
+
+  NOTE: The absence of open ports is the expected result for a default
+  Kali Linux system with no additional services running. All scan
+  behaviors are consistent with standard Nmap documentation.
+
+============================================================
+  End of Command Outputs Log
+============================================================

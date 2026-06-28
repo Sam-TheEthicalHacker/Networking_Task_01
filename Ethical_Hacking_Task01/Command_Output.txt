@@ -1,0 +1,95 @@
+Command Outputs
+
+Task: Ethical Hacking Task 01 – Passive Reconnaissance
+
+Target
+
+https://www.crunchyroll.com
+
+Tools Used
+
+ICANN WHOIS Lookup
+
+DNSChecker
+
+Wappalyzer
+
+SecurityHeaders.com
+
+Web Browser
+
+WHOIS Lookup
+
+Successfully retrieved publicly available domain registration information, including domain status, creation date, expiration date, update date, and authoritative name servers.
+
+DNS Enumeration
+
+Retrieved A Records
+
+172.64.153.54
+
+104.18.34.202
+
+Retrieved AAAA Records
+
+2606:4700:4409::ac40:9936
+
+2606:4700:4404::6812:22ca
+
+MX Record
+
+No MX record detected for the queried subdomain.
+
+NS Record
+
+No NS record detected for the queried subdomain.
+
+Technology Identification
+
+Detected Technologies
+
+Next.js
+
+React
+
+TypeScript
+
+Cloudflare
+
+Amazon CloudFront
+
+Amazon S3
+
+HTTP Security Header Analysis
+
+Overall Grade: F
+
+Observed Missing Headers
+
+Strict-Transport-Security
+
+Content-Security-Policy
+
+X-Frame-Options
+
+X-Content-Type-Options
+
+Referrer-Policy
+
+Permissions-Policy
+
+robots.txt Analysis
+
+robots.txt file successfully accessed.
+
+Observed multiple Disallow directives and sitemap references.
+
+sitemap.xml Analysis
+
+Sitemap index successfully accessed.
+
+Observed multiple sitemap files corresponding to different sections and language-specific content.
+
+Assessment Summary
+
+All information was collected using passive reconnaissance techniques and publicly available resources. No active scanning, vulnerability assessment, exploitation, authentication, or unauthorized access was performed during this task.

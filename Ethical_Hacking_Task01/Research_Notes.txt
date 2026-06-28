@@ -1,0 +1,159 @@
+Research Notes
+
+Task Title
+
+Ethical Hacking Task 01 – Passive Reconnaissance
+
+Student Name
+
+Sanjay
+
+Target Website
+
+Website Name: Crunchyroll
+
+URL: https://www.crunchyroll.com
+
+Objective
+
+To gather publicly available information about the target website using passive reconnaissance techniques without interacting with or attempting to exploit the target.
+
+Target Information
+
+Website Type
+
+Online Anime Streaming Platform
+
+Domain Information
+
+Domain Name: CRUNCHYROLL.COM
+
+Registry Domain ID: 448045831_DOMAIN_COM-VRSN
+
+Creation Date: 14 May 2006
+
+Last Updated: 23 September 2024
+
+Expiration Date: 28 August 2027
+
+Name Servers
+
+CLINT.NS.CLOUDFLARE.COM
+
+ZARA.NS.CLOUDFLARE.COM
+
+Domain Status
+
+clientDeleteProhibited
+
+clientTransferProhibited
+
+clientUpdateProhibited
+
+serverDeleteProhibited
+
+serverTransferProhibited
+
+serverUpdateProhibited
+
+DNS Enumeration
+
+A Records
+
+172.64.153.54
+
+104.18.34.202
+
+AAAA Records
+
+2606:4700:4409::ac40:9936
+
+2606:4700:4404::6812:22ca
+
+MX Record
+
+No MX record detected for the queried subdomain.
+
+NS Record
+
+No NS record displayed for the queried subdomain.
+
+Website Technologies
+
+Web Server
+
+Next.js
+
+JavaScript Frameworks
+
+React
+
+Next.js
+
+Backbone.js
+
+Mustache
+
+React Router
+
+Emotion
+
+Gatsby
+
+GSAP
+
+styled-components
+
+Vue.js
+
+Angular
+
+Programming Language
+
+TypeScript
+
+Content Delivery Networks
+
+Cloudflare
+
+Amazon CloudFront
+
+Amazon S3
+
+HTTP Security Headers
+
+SecurityHeaders.com reported an overall grade of F for the scanned endpoint.
+
+The following security headers were reported as missing:
+
+Strict-Transport-Security
+
+Content-Security-Policy
+
+X-Frame-Options
+
+X-Content-Type-Options
+
+Referrer-Policy
+
+Permissions-Policy
+
+This observation reflects the output of the scanning tool and should not be considered a complete assessment of the website's security posture.
+
+robots.txt Findings
+
+The robots.txt file is publicly accessible.
+
+Multiple directories are excluded from search engine indexing using Disallow directives.
+
+The file also references sitemap locations.
+
+sitemap.xml Findings
+
+A sitemap index is available.
+
+Multiple sitemap files exist for various website sections and language-specific content.
+
+Overall Observation
+
+Passive reconnaissance successfully identified publicly available information regarding the target's domain registration, DNS records, technology stack, CDN infrastructure, HTTP security headers, robots.txt configuration, and sitemap structure without performing any intrusive activities.
